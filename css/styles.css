@@ -13,6 +13,16 @@ ul, ol {
     margin: 0;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 120px 0;
+}
+
 /* Header */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -35,6 +45,7 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    display: inline-flex;
 }
 
 .nav-link:hover,
@@ -57,6 +68,10 @@ ul, ol {
 .contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
+}
+
+.header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Hero section */
@@ -190,6 +205,8 @@ ul, ol {
 .portfolio-item {
     background-color: #FFFFFF;
     text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
 }
 
 .portfolio-image {
