@@ -23,6 +23,10 @@ ul, ol {
     padding: 120px 0;
 }
 
+.img {
+    display: block
+}
+
 /* Header */
 .logo {
     font-family: "Raleway", sans-serif;
